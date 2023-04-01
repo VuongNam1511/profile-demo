@@ -77,6 +77,10 @@ html {
     color: #fff !important;
 }
 
+.green-line {
+    color: #6db363 !important;
+}
+
 html {
     font-family: Lato, sans-serif ;
 }
@@ -211,7 +215,7 @@ html {
     text-align: center;
 }
 #slider .text-heading {
-    color: #6db363;
+    color: #000000;
     font-size: 36px;
     font-family:"Segoe UI",Arial,sans-serif;
     text-shadow: 0 0 0.5px #ddd ;
