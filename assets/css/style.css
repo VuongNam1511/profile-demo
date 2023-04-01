@@ -78,7 +78,7 @@ html {
 }
 
 .green-line {
-    color: #6db363 !important;
+    color: #2196f3 !important;
 }
 
 html {
@@ -137,13 +137,13 @@ html {
 
 #nav > li:hover > a {
     color: #000;
-    background-color: #6db363;
+    background-color: #2196f3;
 }
 
 
 #nav .subnav li:hover a{
     color: #000;
-    background-color: #6db363;
+    background-color: #2196f3;
 }
 
 #nav .subnav {
@@ -181,7 +181,7 @@ html {
 
 
 #header .mobile-menu-btn:hover {
-    background-color: #6db363;
+    background-color: #2196f3;
 }
 
 #header .mobile-menu-btn .menu-icon:hover {
@@ -215,16 +215,22 @@ html {
     text-align: center;
 }
 #slider .text-heading {
-    color: #000000;
+    color: #ffffff;
     font-size: 36px;
     font-family:"Segoe UI",Arial,sans-serif;
     text-shadow: 0 0 0.5px #ddd ;
+}
+
+#slider .text-heading::first-letter{
+    color: #2196f3;
+    font-size: 42px;
 }
 #slider .text-dicription {
     font-size: 24px;
     margin-top: 25px;
     text-shadow: 0 0 1px #ddd ;
 }
+
 
 
 /* ===content */
@@ -249,6 +255,11 @@ html {
     text-align: center;
     font-weight: 500; /* độ in đậm của chữ */
     letter-spacing: 4px; /*Tăng giảm khoảnh cách giữa các ki tự*/
+}
+
+#content .section-heading::first-letter{
+    color: #2196f3;
+    font-size: 42px;
 }
 
 #content .section-sub-heading {
@@ -305,7 +316,7 @@ html {
 }
 
 #content .social-lists a:hover{
-    color:#6db363;
+    color:#2196f3;
 }
 /* ===tour-section */
 .skills-section {
@@ -330,7 +341,7 @@ html {
 .skills-list .sold-out {
     color: #fff;
     float: right;
-    background-color: #6db363;
+    background-color: #2196f3;
     padding: 3px 6px 3px 6px;
 }
 
@@ -387,7 +398,7 @@ html {
 }
 
 .send-input-btn:hover{
-    background-color: #6db363;
+    background-color: #2196f3;
     color: #000;
     cursor: pointer;
 }
@@ -410,7 +421,7 @@ html {
 }
 
 #footer .social-lists a:hover{
-    color:#6db363;
+    color:#2196f3;
 }
 
 #footer .copy-right{
@@ -422,137 +433,5 @@ html {
     color: #ffffff;
 }
 #footer .copy-right a:hover{
-    color:#6db363;
-}
-
-
-/* ===buy tickets modal */
-.modal {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0,0,0,0.4);
-    align-items: center;
-    justify-content: center;
-    display: none;
-}
-
-.modal.open{
-    display: flex;
-}
-
-.modal-container {
-    background: #fff;
-    width: 900px;
-    max-width: calc(100% - 32px);
-    min-height: 200px;
-    position: relative;
-    animation: modalFadeIn ease 0.4s;
-}
-
-.modal-close{
-    position: absolute;
-    right: 0;
-    top: 0;
-    color: #fff;
-    padding: 12px;
-    cursor: pointer;
-    opacity: 0.8;
-}
-
-.modal-close:hover{
-    opacity: 1;
-    background-color: #ccc;
-    color: #000;
-}
-
-.modal-header {
-    background-color: #009688;
-    height: 130px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-    color: #fff;
-}
-
-.ti-bag{
-    margin-right:16px ;
-}
-.modal-body {
-    padding: 16px;
-}
-
-label.modal-label {
-    display: block;
-    font-size: 15px;
-    margin-bottom: 12px;
-}
-
-input.modal-input {
-    border: 1px solid #ccc;
-    width: 100%;
-    padding: 10px;
-    font-size: 15px;
-    margin-bottom: 24px;
-}
-
-#buy-tickets {
-    width: 100%;
-    background-color: #009688;
-    border: none;
-    color: #fff;
-    font-size: 15px;
-    text-transform: uppercase;
-    padding: 18px;
-    cursor: pointer;
-}
-
-#buy-tickets:hover{
-  opacity: 0.9;
-  background-color: #ccc;
-  color: #000;
-}
-
-.modal-footer{
-    padding: 16px;
-    text-align: right;
-}
-
-.modal-footer a{
-    color: #2196f3;
-}
-
-.modal-footer-close {
-    float: left;
-    background: #f44336;
-    border: none;
-    padding: 8px 16px;
-    margin: 16px 0px;
-    color: #fff;
-    font-weight: 540;
-    font-size: 15px;
-    cursor: pointer;
-}
-
-.modal-footer-close:hover {
-    color: #000;
-    background-color: #ccc;
-}
-
-.footer-close {
-    font-size: 13px;
-}
-
-@keyframes modalFadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(-650px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    color:#2196f3;
 }
