@@ -430,8 +430,8 @@ html {
 }
 
 #footer .copy-right a{
-    color: #ffffff;
+    color: #2196f3;
 }
 #footer .copy-right a:hover{
-    color:#2196f3;
+    color:#fff;
 }
